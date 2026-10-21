@@ -10,6 +10,17 @@ body {
   text-align: center;
 }
 
+@media (max-width: 768px) {
+  .hero { flex-direction: column-reverse; text-align: center; }
+}
+
+@media (max-width: 768px) {
+  /* layar HP: jadi 1 kolom */
+  .card{
+    grid-template-columns: 1fr;
+  }
+}
+
 .hobbies {
   display: grid;
   grid-template-columns: 1fr 1fr;

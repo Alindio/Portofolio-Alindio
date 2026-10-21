@@ -20,7 +20,7 @@ body {
 
 @media (max-width: 768px) {
   /* layar HP: jadi 1 kolom */
-  .kartu-grid {
+  .card{
     grid-template-columns: 1fr;
   }
 }
