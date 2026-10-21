@@ -88,7 +88,7 @@ justify-content: center;
   object-fit: cover;
   border-radius: 50%;
   border: 6px solid #1B365D;
-  align-content: flex-start;
+  align-content: center;
 }
 .btn-utama{
 	color: #f225f0f0;
